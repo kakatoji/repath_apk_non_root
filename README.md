@@ -31,7 +31,7 @@ mv frida-gadget-16.1.8-android-arm64.so libfrida-gadget.so
 
 </pre>
 
-#JALANKAN
+# JALANKAN
 <pre>
  bash inject-frida.sh target.apk
 
