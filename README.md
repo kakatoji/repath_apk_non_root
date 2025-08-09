@@ -45,3 +45,15 @@ Jalankan ProxyPin → Start VPN.
 
 Jalankan APK target → semua HTTPS bisa dibaca.
 </pre>
+
+# KEY STORE UNTUK SIGNITER
+
+letak kan keystore ini di folder yg sama dengan injeck-frida.sh nya buat dengan perintah
+<pre>
+ keytool -genkeypair -v \
+  -keystore mykey.keystore \
+  -alias myalias \
+  -keyalg RSA \
+  -keysize 2048 \
+  -validity 10000
+</pre>
