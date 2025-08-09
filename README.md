@@ -11,10 +11,37 @@ struktur folder
  ├─ ssl-bypass.js
 </pre>
 
- # install
+ # install apktool
 <pre>
  pkg install openjdk-17 apksigner
  pkg install apktool
 </pre>
  
+# install frida gadged 
+cari file frida-gadget-*-arm64.so
+<pre>
+ https://github.com/frida/frida/releases
+</pre>
 
+# EXTRAK
+ini contoh saja samakan dengan yg udah di download
+<pre>
+ xz -d frida-gadget-16.1.8-android-arm64.so.xz
+mv frida-gadget-16.1.8-android-arm64.so libfrida-gadget.so
+
+</pre>
+
+#JALANKAN
+<pre>
+ bash inject-frida.sh target.apk
+
+</pre>
+
+# FINISH
+<pre>
+Install APK hasil sign di HP.
+
+Jalankan ProxyPin → Start VPN.
+
+Jalankan APK target → semua HTTPS bisa dibaca.
+</pre>
