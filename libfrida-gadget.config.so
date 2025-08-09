@@ -1,0 +1,6 @@
+{
+  "interaction": {
+    "type": "script",
+    "path": "/data/data/@PACKAGE_NAME@/ssl-bypass.js"
+  }
+}
