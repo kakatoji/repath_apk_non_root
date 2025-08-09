@@ -12,9 +12,9 @@ struktur folder
 </pre>
 
  # install
-
+<pre>
  pkg install openjdk-17 apksigner
  pkg install apktool
-
+</pre>
  
 
